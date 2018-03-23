@@ -1,0 +1,67 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cars4u Signup</title>
+<!-- Bootstrap -->
+<link href="assets/css/bootstrap.css" rel="stylesheet">
+<link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body style="background-color: #f6f6f6;">
+<nav class="navbar navbar-default nav-signup">
+	<div class="container-fluid"> 
+    	<div class="title col-lg-2 col-md-2 col-sm-2 col-xs-2">
+    		<img src="images/SDLogo.png" style="width: 75%;">
+    	</div> 
+    	<!-- Brand and toggle get grouped for better mobile display -->
+    	<div class="navbar-header">
+      	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#defaultNavbar1">
+      		<span class="sr-only">Toggle navigation</span>
+      		<span class="icon-bar"></span>
+      		<span class="icon-bar"></span>
+      		<span class="icon-bar"></span>
+      	</button>
+		</div>
+    	<!-- Collect the nav links, forms, and other content for toggling -->
+    	<div class="collapse navbar-collapse navbar-right col-lg-3" >
+      		<ul class="nav navbar-nav">
+        		<li class="active"><a href="#">Home</a></li>
+        		<li><a href="#">About</a></li>
+        		<li><a href="#">Contact</a></li>
+      		</ul>
+    	</div>
+    <!-- /.navbar-collapse --> 
+  	</div>
+  <!-- /.container-fluid --> 
+</nav>
+<div  class="container-fluid" style="height: auto" align="center">
+	<div class="scform" align="center" st >
+		<form id="Admin-Signup" action="/signup" method="post" class="form-group">
+	 		<fieldset>
+	 			<legend>Signup</legend>
+
+				<input class="form-control form-input" type="text" placeholder="Name" id="fullName" name = "fullName" required autofocus autocomplete="on"><br>
+				<input class="form-control form-input" type="email" placeholder="E-mail" id="email" name="email" required><br>
+				<input class="form-control form-input" type="password" placeholder="Password" id="password" name="password" required><br>
+				<input class="form-control form-input" type="password" placeholder="Confirm Password" id="confirmPassword" name="confirmPassword" required><br>
+				<input class="form-control form-input" type="text" placeholder="Phone Number" id="userphone" name="mobileNumber" required><br>
+				<textarea class="form-control form-input textarea" id="useraddress" rows="4" cols="20" placeholder="Address" name="address" required></textarea><br>
+
+	 		</fieldset>
+			<input class="btn btn-default login-btn" type="submit" value="Sign Up"><br>
+ 		</form>
+	</div>
+</div>
+	
+<div id="footersc">
+	<p align="center" style="color: white;">&copy;All rights reserved.</p>
+</div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="js/jquery-1.11.3.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="js/bootstrap.js"></script>
+</body>
+</html>

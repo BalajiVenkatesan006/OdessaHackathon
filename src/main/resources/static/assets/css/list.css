@@ -1,0 +1,14 @@
+th,td {
+	text-align: center;
+	background-color: #F1F1F1;
+}
+
+#morelist td,th {
+	padding: 10px;
+}
+
+.name {
+	color: black;
+	font-weight: 500;
+	background-color: #f6f6f6;
+}
