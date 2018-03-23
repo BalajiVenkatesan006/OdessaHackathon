@@ -1,10 +1,10 @@
  <!DOCTYPE html>
-<html lang="en" xmlns:th="http:/www.thymeleaf.org">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Cars4u</title>
+<title>Login</title>
 <!-- Bootstrap -->
 <link href="assets/css/bootstrap.css" rel="stylesheet">
 <link href="assets/css/main.css" rel="stylesheet">
@@ -13,11 +13,8 @@
 </head>
 
 <body style="background-color: #f6f6f6">
-<nav class="navbar navbar-default nav-login" style="background-color: #6600cc">
+<nav class="navbar navbar-default nav-login">
 	<div class="container-fluid"> 
-		<div class="title col-lg-2 col-md-2 col-sm-2 col-xs-2">
-   			<img src="images/SDLogo.png" width="75%">
-   		</div>  
     <!-- Brand and toggle get grouped for better mobile display -->
 		<div class="navbar-header">
 			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#defaultNavbar1">
@@ -30,9 +27,7 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     	<div class="collapse navbar-collapse navbar-right nav-items col-lg-3">
       		<ul class="nav navbar-nav">
-        		<li class="active"><a href="#">Home</a></li>
-        		<li><a href="#">About</a></li>
-        		<li><a href="#">Contact</a></li>
+        		<li class="active"><a href="index.html">Home</a></li>
       		</ul>
     	</div>
     <!-- /.navbar-collapse --> 
@@ -43,15 +38,15 @@
 <div  class="container-fluid" style="float: none;height: 100%" align="center">
 	<div class="logform" align="center"  >
 		<form id="login" class="form-group" action="/login">
-			<input class="form-control form-input" type="text" placeholder="Email" name="email"/><br>
+			<input class="form-control form-input" type="text" placeholder="Username" name="email"/><br>
 			<input  class="form-control form-input" type="password" placeholder="Password" name="password"/><br>
-			<input class="btn btn-default login-btn" type="submit" value="Login" style="background-color: #5900b3"><br>
+			<input class="btn btn-default login-btn" type="submit" value="Login"><br>
 	 	</form>
 	 	<p>Forgot password?<a href="#" style="color: red"> Click here</a></p>
 	</div>
 </div>
  		
-<footer id="footerl" style="background-color: #5900b3">
+<footer id="footerl">
 	<p align="center" style="color: white;">&copy;All rights reserved.</p>
 </footer>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 

@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* CSS Document */
+#footerl{
+	background-color: #354F72; 
+	position: absolute;
+	bottom: 0px;
+	width: 100%; 
+	height: 5%;
+}
+
+#footersc{
+	background-color: #354F72; 
+	position: absolute;
+	width: 100%; 
+	height: 5%;
+}
+
+.title {
+	float: left;
+	padding-top: 10px;
+	font-size: 30px;
+	color: #FFFFFF;
+}
+
+.nav-items {
+	float: left;
+	padding-bottom: 10px;
+	font-size: 30px;
+	color: #FFFFFF;
+}
+
+li>a{
+	font-size: 18px;
+	color: #FFFFFF;
+}
+
+body {font-family: roboto;}
+
+.logform{
+	box-shadow: 3px 3px 8px grey; 
+	border-radius: 15px;
+	background-color: #ffffff;
+	width: 450px; 
+	height: auto;
+	margin-top: 160px;
+	padding: 35px;
+}
+
+.login-btn {
+	width: 300px;
+	height: 42px;
+	border-radius: 0px;
+	background-color: #2986BB;
+	color: white;
+}
+.login-btn:hover {
+	background-color: white;
+	color: #2986BB;
+}
+
+.form-input {
+	width: 300px;
+	height: 42px;
+	border-radius: 0px;
+}
+.scform{
+	box-shadow: 3px 3px 8px grey; 
+	border-radius: 15px;
+	background-color: #ffffff;
+	width: 450px; 
+	height: auto;
+	margin-top: 120px;
+	margin-bottom: 100px;
+	padding: 35px;
+}
+.nav-signup {
+	position: fixed;
+	height:10%;
+	width:100%;
+	background-color: #354F72
+}
+.nav-login {
+	position: fixed;
+	height:10%;
+	width:100%;
+	background-color: #354F72
+}
+
+.textarea {
+	max-width: 300px;
+	min-width: 300px;
+}
+
+.resize{
+	max-width: 100%;
+	height: auto;
+	width: auto\9;
+}

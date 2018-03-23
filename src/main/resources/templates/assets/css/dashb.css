@@ -1,0 +1,213 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family:Roboto;
+	background-color:#CBC6C6
+}
+
+#top{
+	background-color: white;
+	position: relative;
+	border-bottom: 1px #757575 solid;
+} 
+
+.sidenav {
+  background-color: #354F72;
+	position: fixed;
+	height: 100%;
+}
+
+h5 > a {
+	color: darkgrey;
+}
+
+h5 > a:hover{
+	text-decoration: none;
+}
+
+#page-title {
+	font-size: 24px; 
+	margin-top: 18px;
+	font-weight: 500;
+}
+
+#page-info > a {
+	color: dimgrey;
+	font-weight: 400;
+	font-size: 16px;
+	text-decoration: none;
+	display: inline-block;
+	position: relative;
+}
+#page-info > a:hover {
+	color: black;
+}
+#page-user {
+	margin-top: 20px;
+	color: dimgrey;
+	font-weight: 400;
+	font-size: 16px;
+	text-decoration: none;
+	display: inline-block;
+	position: relative;
+}
+p {
+	display: inline;
+}
+
+.page-container {
+	display: block;
+	height: 100%;
+	border-radius: 10px;
+	margin-top: 20px;
+	background-color: white;
+	box-shadow: 3px 3px 8px #A0A0A0;
+}
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+th, td{
+	text-align: center;
+}
+
+
+.form-input {
+	width: 250px;
+	height: 36px;
+	border-radius: 0px;
+}
+
+.textarea {
+	max-width: 500px;
+	min-width: 500px;
+}
+
+.reset-btn {
+	width: 100px;
+	height: 36px;
+	border-radius: 0px;
+	background-color: #2986BB;
+	color: white;
+}
+
+.reset-btn:hover {
+	background-color: white;
+	color: #2986BB;
+}
+
+.submit-btn {
+	width: 100px;
+	height: 36px;
+	border-radius: 0px;
+	background-color: #2986BB;
+	color: white;
+}
+
+.submit-btn:hover {
+	background-color: white;
+	color: #2986BB;
+}
+
+.target > div {
+    display:none;
+}
+
+.target > div:target{
+    display:block;
+}
+
+.alignright {
+	margin-right: 50px;
+}
+
+.alignrightform {
+	margin-right: 100px;
+}
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.logo {
+	width: 100%;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.resize{
+	max-width: 100%;
+	height: auto;
+	width: auto\9;
+}
+
