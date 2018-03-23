@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 import com.example.entities.User;
+import com.example.repositories.UserRepository;
 import com.example.services.UserService;
 
 @Controller
@@ -13,6 +14,9 @@ public class LoginController {
 	
 	@Autowired
 	UserService userService;
+	
+	@Autowired
+	UserRepository userRepository;
 	
 	@RequestMapping("/signup")
 	public String signUpUser(@RequestParam String fullName, 
@@ -25,4 +29,15 @@ public class LoginController {
 		userService.addUser(user);
 		return "redirect:/";
 	}
+	
+	@RequestMapping("/login")
+	public String login(@RequestParam String email, @RequestParam String password) throws Exception {
+		for(User user : userRepository.findAll()) {
+			if(user.getEmail().equals(email) && user.getPassword().equals(password)) {
+				return "redirect:/";
+			}
+		}
+        return "/login";
+	}
+	
 }

@@ -1,8 +1,5 @@
 <!doctype html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+<html class="no-js" lang=""> 
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -49,7 +46,7 @@
                                             <span class="icon-bar"></span>
                                             <span class="icon-bar"></span>
                                         </button>
-                                        <a class="navbar-brand" href="#home">
+                                        <a color = "#ffffff" class = "head_title"href="#home">
                                             Cars4U
                                         </a>
                                     </div>
@@ -62,10 +59,11 @@
                                         <ul class="nav navbar-nav navbar-right">
                                             <li><a href="#home">Home</a></li>
                                             <li><a href="#service">Service</a></li>
-                                            <li><a href="#portfolio">portfolio</a></li>
+                                            <li><a href="#portfolio">Cars</a></li>
                                             <li><a href="#counter">Counter Us</a></li>
                                             <li><a href="#contact">Contact</a></li>
-											<li><a href="signup.html">Login/SignUp</a></li>
+											<li><a href="login.html">Login</a></li>
+											<li><a href="signup.html">SignUp</a></li>
                                         </ul>    
                                     </div>
 
@@ -127,8 +125,8 @@
                 <div class="row">
                     <div class="main_service_area sections"> 
                         <div class="col-sm-6">
-                            <div class="signle_service_left">
-                                <h2>What
+                            <div class="signle_service_left" >
+                                <h2>What		
                                     We 
                                     Do</h2>
                             </div>
@@ -180,51 +178,38 @@
         </section>
 
 
-        <section id="choose" class="choose">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="main_choose_area sections">
-                        <div class="col-sm-7 col-sm-offset-1">
-                            <div class="main_choose_content text-left">
-                                <div class="single_choose_content">
-                                    <h1>Exceptional Customer Service</h1>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                                        sed do eiusmod tempor Lorem ipsum dolor sit amet
-                                        consectetur adipiscing elit.</p>
-
-                                    <a href="" class="btn btn-larg">Need to help? lets Chat <i class="lnr lnr-arrow-right"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-
 
         <section id="portfolio" class="portfolio">
             <div class="container">
                 <div class="row">
                     <div class="main_mix_content text-center sections">
                         <div class="head_title">
-                            <h2>Our Portfolio</h2>
+                            <h2>Our Cars</h2>
                         </div>
                         <div class="main_mix_menu">
                             <ul>
                                 <li class="btn btn-primary filter" data-filter="all">All</li>
-                                <li class="btn btn-primary filter" data-filter=".cat1">Web</li>
-                                <li class="btn btn-primary filter" data-filter=".cat2">UI/UX</li>
-                                <li class="btn btn-primary filter" data-filter=".cat3">Photography</li>
-                                <li class="btn btn-primary filter" data-filter=".cat4">Branding</li>
+                                <li class="btn btn-primary filter" data-filter=".cat1">Sedan</li>
+                                <li class="btn btn-primary filter" data-filter=".cat2">SUV</li>
+                                <li class="btn btn-primary filter" data-filter=".cat3">HatchBack</li>
                             </ul>
                         </div>
 
                         <div id="mixcontent" class="mixcontent">
                             <div class="col-md-3 mix cat1 no-padding">
                                 <div class="single_mixi_portfolio">
-                                    <img src="assets/images/pf1.jpg" alt="" />
+                                    <img src="assets/images/CITY.jpg" alt="" />
+                                    <div class="mixi_portfolio_overlay">
+                                        <div class="overflow_hover_text"> 
+                                            <a href=""><i class="lnr lnr-magnifier"></i></a>
+                                            <a href=""><i class="lnr lnr-heart"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 mix cat1 no-padding">
+                                <div class="single_mixi_portfolio">
+                                    <img src="assets/images/COROLLA.jpg" alt="" />
                                     <div class="mixi_portfolio_overlay">
                                         <div class="overflow_hover_text"> 
                                             <a href=""><i class="lnr lnr-magnifier"></i></a>
@@ -235,7 +220,7 @@
                             </div>
                             <div class="col-md-3 mix cat2 no-padding">
                                 <div class="single_mixi_portfolio">
-                                    <img src="assets/images/pf2.jpg" alt="" />
+                                    <img src="assets/images/INNOVA.jpg" alt="" />
                                     <div class="mixi_portfolio_overlay">
                                         <div class="overflow_hover_text"> 
                                             <a href=""><i class="lnr lnr-magnifier"></i></a>
@@ -244,9 +229,9 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-3 mix cat1 cat4 no-padding">
+                            <div class="col-md-3 mix cat1 no-padding">
                                 <div class="single_mixi_portfolio">
-                                    <img src="assets/images/pf3.jpg" alt="" />
+                                    <img src="assets/images/DESIRE.jpg" alt="" />
                                     <div class="mixi_portfolio_overlay">
                                         <div class="overflow_hover_text"> 
                                             <a href=""><i class="lnr lnr-magnifier"></i></a>
@@ -255,9 +240,9 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-3 mix cat3 cat4 no-padding">
+                            <div class="col-md-3 mix cat3 no-padding">
                                 <div class="single_mixi_portfolio">
-                                    <img src="assets/images/pf4.jpg" alt="" />
+                                    <img src="assets/images/FIGO.jpg" alt="" />
                                     <div class="mixi_portfolio_overlay">
                                         <div class="overflow_hover_text"> 
                                             <a href=""><i class="lnr lnr-magnifier"></i></a>
@@ -266,9 +251,9 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-3 mix cat4 no-padding">
+                            <div class="col-md-3 mix cat3 no-padding">
                                 <div class="single_mixi_portfolio">
-                                    <img src="assets/images/pf5.jpg" alt="" />
+                                    <img src="assets/images/I10.jpg" alt="" />
                                     <div class="mixi_portfolio_overlay">
                                         <div class="overflow_hover_text"> 
                                             <a href=""><i class="lnr lnr-magnifier"></i></a>
@@ -277,9 +262,9 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-3 mix cat1 cat2 no-padding">
+                            <div class="col-md-3 mix cat1 no-padding">
                                 <div class="single_mixi_portfolio">
-                                    <img src="assets/images/pf6.jpg" alt="" />
+                                    <img src="assets/images/INDIGO.jpg" alt="" />
                                     <div class="mixi_portfolio_overlay">
                                         <div class="overflow_hover_text"> 
                                             <a href=""><i class="lnr lnr-magnifier"></i></a>
@@ -288,9 +273,9 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-3 mix cat1 cat2 no-padding">
+                            <div class="col-md-3 mix cat2 no-padding">
                                 <div class="single_mixi_portfolio">
-                                    <img src="assets/images/pf7.jpg" alt="" />
+                                    <img src="assets/images/JAZZ.jpg" alt="" />
                                     <div class="mixi_portfolio_overlay">
                                         <div class="overflow_hover_text"> 
                                             <a href=""><i class="lnr lnr-magnifier"></i></a>
@@ -299,9 +284,9 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-3 mix cat1 cat2 no-padding">
+							<div class="col-md-3 mix cat2 no-padding">
                                 <div class="single_mixi_portfolio">
-                                    <img src="assets/images/pf7.jpg" alt="" />
+                                    <img src="assets/images/SCORPIO.jpg" alt="" />
                                     <div class="mixi_portfolio_overlay">
                                         <div class="overflow_hover_text"> 
                                             <a href=""><i class="lnr lnr-magnifier"></i></a>
@@ -310,7 +295,39 @@
                                     </div>
                                 </div>
                             </div>
-
+							<div class="col-md-3 mix cat3 no-padding">
+                                <div class="single_mixi_portfolio">
+                                    <img src="assets/images/SWIFT.jpg" alt="" />
+                                    <div class="mixi_portfolio_overlay">
+                                        <div class="overflow_hover_text"> 
+                                            <a href=""><i class="lnr lnr-magnifier"></i></a>
+                                            <a href=""><i class="lnr lnr-heart"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+							<div class="col-md-3 mix cat1 no-padding">
+                                <div class="single_mixi_portfolio">
+                                    <img src="assets/images/VERNA.jpg" alt="" />
+                                    <div class="mixi_portfolio_overlay">
+                                        <div class="overflow_hover_text"> 
+                                            <a href=""><i class="lnr lnr-magnifier"></i></a>
+                                            <a href=""><i class="lnr lnr-heart"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+							<div class="col-md-3 mix cat3 no-padding">
+                                <div class="single_mixi_portfolio">
+                                    <img src="assets/images/WAGO.jpg" alt="" />
+                                    <div class="mixi_portfolio_overlay">
+                                        <div class="overflow_hover_text"> 
+                                            <a href=""><i class="lnr lnr-magnifier"></i></a>
+                                            <a href=""><i class="lnr lnr-heart"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                             <div class="gap"></div>
                         </div>
                     </div>                     
@@ -371,7 +388,7 @@
                     <div class="main_contact sections">
                         <div class="head_title text-center">
                             <h2>Contact</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                            <p>Queries???? Please feel free to call us </p>
                         </div>
 
                         <div class="row">
@@ -408,11 +425,11 @@
                                     <div class="single_message_right_info">
                                         <h4>Address :</h4>
                                         <ul>
-                                            <li><a href=""><i class="fa fa-home"></i> 69/A , Road 3, Mohammadia Housing Ltd
-                                                    Dhaka - 1207</a></li>
-                                            <li><a href=""><i class="fa fa-phone"></i> +008 8017 0000 5072 7522</a></li>
+                                            <li><a href=""><i class="fa fa-home"></i> Odessa Technologies
+                                                    Bangalore</a></li>
+                                            <li><a href=""><i class="fa fa-phone"></i> 9655978734</a></li>
 
-                                            <li><a href=""><i class="fa fa-envelope"></i> muslimmahin@gmail.com</a></li>
+                                            <li><a href=""><i class="fa fa-envelope"></i> vcabs@gmail.com</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -434,7 +451,7 @@
 
                         <div class="col-sm-6 col-xs-12">
                             <div class="copyright_text">
-                                <p class=" wow fadeInRight" data-wow-duration="1s">Made with <i class="fa fa-heart"></i> by <a href="http://bootstrapthemes.co">Bootstrap Themes</a>2016. All Rights Reserved</p>
+                                <p class=" wow fadeInRight" data-wow-duration="1s">Made with <i class="fa fa-heart"></i> by <a href="http://bootstrapthemes.co">V..Cabs</a></p>
                             </div>
                         </div>
 

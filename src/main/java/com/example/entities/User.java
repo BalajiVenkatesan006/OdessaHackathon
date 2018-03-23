@@ -1,11 +1,13 @@
 package com.example.entities;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
 @Entity
 public class User {
 	@Id
+	@Column(unique=true)
 	private String mobileNumber;
 	private String fullName;
 	private String password;
